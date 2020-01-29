@@ -14,10 +14,10 @@ public class Buggy1 {
 	    int n;
 	    do
 	    {
-	        Input.print("n is ");
+	        Input.print("n is "); // mostrar mensaje para introducir valor
 	        n = Input.get_int();
 	    }
-	    while (n > 0);
+	    while (n >= 0);
 	    return n;
 	}
 }
